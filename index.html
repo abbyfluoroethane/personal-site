@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Abby’s Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- System7.css (CDN) -->
+    <link rel="stylesheet" href="https://unpkg.com/system7/style.css" />
+    <!-- Your theme overrides -->
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <div class="window" style="max-width: 640px; margin: 2rem auto;">
+      <div class="title-bar">
+        <button aria-label="Close" class="close"></button>
+        <h1 class="title">Welcome</h1>
+        <button aria-label="Resize" class="resize"></button>
+      </div>
+      <div class="separator"></div>
+      <div class="window-pane">
+        <p>Hi! This site uses <b>System7.css</b> with a <b>Catppuccin Mocha</b> palette and a pink accent.</p>
+
+        <section class="field-row" style="justify-content:flex-start">
+          <label class="modeless-text" for="search">Find:</label>
+          <input id="search" type="text" placeholder="Type here…" style="width:100%;">
+        </section>
+
+        <section class="field-row" style="justify-content:flex-end">
+          <button class="btn btn-accent">Primary</button>
+          <button class="btn">Secondary</button>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
